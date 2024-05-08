@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "example",
+  "version": "${mod_version}",
+  "name": "Example Mod",
+  "description": "Lorum ipsum nadara un petit mozrango.",
+  "authors": [
+    "IMB11"
+  ],
+  "license": "ARR",
+  "icon": "assets/example/icon.png",
+  "contact": {
+    "homepage": "https://imb11.dev/",
+    "sources": "https://github.com/IMB11/repo",
+    "issues": "https://github.com/IMB11/repo"
+  },
+  "environment": "*",
+  "accessWidener" : "example.accesswidener",
+  "mixins": [
+    "example.mixins.json"
+  ],
+  "depends": {
+    "fabric": "*",
+    "fabricloader": "*",
+    "minecraft": "${target_minecraft}"
+  }
+}
